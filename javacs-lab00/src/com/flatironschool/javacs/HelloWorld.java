@@ -2,7 +2,7 @@ package com.flatironschool.javacs;
 
 public class HelloWorld {
     public static Double getVersion() {
-	double d = Double.parseDouble(System.getProperty("java.version")); 
+	double d = Double.parseDouble(System.getProperty("java.specification.version")); 
     	return d;
 	}
 
